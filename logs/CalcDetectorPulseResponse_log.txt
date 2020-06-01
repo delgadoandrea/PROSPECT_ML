@@ -1,0 +1,26 @@
+/bin/CalcDetectorPulseResponse ../PROSPECT2x_Analysis/PulseCruncher/Config/Crunch_AD1_Production.cfg /home/andrea/PG4-build/AD1_IBD.h5 -c s000_f00001_ts1524019601
+PROSPECT2x_Analysis 'v23.1' (06ee5bc30e130477a007974b7051d10080e2a6bb),
+ compiled May 27 2020 11:42:43 with gcc 9.3.0 (c++ 201103L) by andrea@windblows
+Config base '../PROSPECT2x_Analysis/PulseCruncher/Config/'
+Opening HDF5 output file '/home/andrea/PG4-build/AD1_IBD_DetSim.h5'.
+Setting up 'PhysPulse' table...
+Opening HDF5 input file '/home/andrea/PG4-build/AD1_IBD.h5'
+Warning: table 'Flux' not present in file.
+Warning: table 'Step' not present in file.
+Input file for 2898 primary events in 14281.9 seconds simulated time.
+Preparing to read 966 events (19433 ionizations) in random overlap mode...
++--------------------
+|********************  Done.
+Wrapped around 0 late-time ionizations.
+Ignored 57 ionizations from over a year later.
++--------------------
+|**Opening SQLite3 DB '/home/andrea/PROSPECT_DB/PROSPECT_CalDB.sql'...
+******************  Done.
+
+Wrote out 3221 merged s_PhysPulse.
+Framework time use: 1.29 s
+
+Writing .xml metadata to '/home/andrea/PG4-build/AD1_IBD_DetSim.h5.xml'
+CalcDetectorPulseResponse done!
+Closing previous input file.
+Writing events to HDF5 file '/home/andrea/PG4-build/AD1_IBD_DetSim.h5' and closing...
